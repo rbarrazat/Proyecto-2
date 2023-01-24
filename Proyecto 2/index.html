@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 2</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js"></script>
+</head>
+<body>
+    <h1>Mis Tareas</h1>
+    <p>Para editar la tarea agregada, ingresa nuevamente los campos en la seccion imput y apreta el boton editar de la fila a actualizar. </p>
+    <div>
+        <label for="nombre-tarea">Nombre Tarea:</label>
+        <input type="text" id="nombre-tarea" name="nombre-tarea">
+    </div>
+    <div>
+        <label for="descripcion-tarea">Descripcion Tarea:</label>
+        <input type="text" id="descripcion-tarea" name="descripcion-tarea">
+    </div>
+    <button id="agrega-tarea">Agrega Tarea</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre Tarea</th>
+                <th>Descripcion Tarea</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-tareas">
+        </tbody>
+    </table>
+    </body>
+</html>
