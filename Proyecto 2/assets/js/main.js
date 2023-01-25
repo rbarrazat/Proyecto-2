@@ -13,7 +13,7 @@ function init() {
             name: nombretarea,
             description: descripciontarea,
         };
-        // Aplica local storage
+        // Aplica local storage, guarda como texto con el Json
         let tareas = JSON.parse(localStorage.getItem("tareas")) || [];
         tareas.push(tarea);
         localStorage.setItem("tareas", JSON.stringify(tareas));
